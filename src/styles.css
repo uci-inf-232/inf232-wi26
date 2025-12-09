@@ -133,10 +133,12 @@ hr {
 
 a {
 	color: var(--color-primary-0);
+	text-decoration: none;
 }
 
 a:hover {
 	color: var(--color-primary-1);
+	text-decoration: underline;
 }
 
 a:active {
