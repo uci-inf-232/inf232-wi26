@@ -1,0 +1,21 @@
+@if(paper) {
+    <span>
+        @if(paper.tbd) {
+            <span class="tbd">TBD</span>
+        }
+        @for(author of paper.authors; track author; let isLast=$last, c=$count, i=$index) {
+            <span>
+                {{c>2 && isLast ? 'and ':''}}{{c==2 && isLast ? ' and ':''}}{{author}}{{c>2&&i!=c-1?', ':''}}{{isLast?'.':''}}
+            </span>
+        }
+        @if(paper.link) {
+            <a [href]="paper.link">{{paper.title}}</a>
+        }@else {
+            {{paper.title}}
+        }. @if(paper.venue){ {{paper.venue}}@if(paper.date) {.}}@if(paper.volume) { {{paper.volume}}}@if(paper.issue) {, {{paper.issue}}}@if(paper.date) { ({{paper.date}}).}
+        &nbsp;
+        @if(paper.notes) {
+            <span class="note">Note: {{paper.notes}}</span>
+        }
+    </span>
+}

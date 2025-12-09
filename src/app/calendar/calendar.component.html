@@ -1,0 +1,123 @@
+<main>
+	<h1>Calendar</h1>
+    @for(day of calendar; track day) {
+        <div>
+            <hr class="row">
+            <div class="row">
+                <div class="col-3 col-md-2">
+                    <h2>{{day.date_str}}</h2>
+                </div>
+                <div class="col-9 col-md-10">
+                    @for(event of day.events; track event) {
+                        <div class="event" [class]="event.type">
+                            @if(event.type == 'class') {
+                                <h2>
+                                    {{event.title}}
+                                    @if(event.slides) {
+                                        <a [href]="event.slides" target="_blank">(slides)</a>
+                                    }
+                                </h2>
+                            }
+                            @if(event.leaders) {
+                                <p class="leaders">
+                                    @if(event.leaders.length > 1) {
+                                        <span>Discussion Leaders:</span>
+                                    } @else if(event.leaders.length == 1) {
+                                        <span>Discussion Leader:</span>
+                                    }
+                                    @for(leader of event.leaders; track leader; let isLast = $last) {
+                                        <span>
+                                            {{leader}}{{isLast ? '' : ', '}}
+                                         </span>
+                                    }
+                                </p>   
+                            }
+                            @if(event.venues) {
+                                <p>
+                                    Read the calls for papers for the following venues:
+                                </p>
+                            }
+                            <ul>
+                                @for(venue of event.venues; track venue) {
+                                    <ng-container>
+                                        <li>
+                                            <a [href]="venue.link">{{venue.name}}</a>
+                                            @if(venue.notes) {
+                                                <span> ({{venue.notes}})</span>
+                                            }
+                                        </li>
+                                    </ng-container>
+                                }
+                            </ul>
+                            @if(event.type == 'class' && (!event.readings || !containsRequiredReadings(event.readings)) && !event.venues) {
+                                <p>
+                                    No readings assigned.
+                                </p>
+                            }
+                            @if(event.readings && containsRequiredReadings(event.readings)) {
+                                <p>
+                                    Read the following articles:
+                                </p>
+                            }
+                            <ul>
+                                @for(reading of event.readings; track reading) {
+                                    <ng-container>
+                                        @if(!reading.optional) {
+                                            <li>
+                                                <app-paper [paper]="reading"></app-paper>
+                                            </li>
+                                        }
+                                    </ng-container>
+                                }
+                            </ul>
+                            @if(event.readings && containsOptionalReadings(event.readings)) {
+                                <p>
+                                    Optional resources:
+                                </p>
+                            }
+                            <ul>
+                                @for(reading of event.readings; track reading) {
+                                    <ng-container>
+                                        @if(reading.optional) {
+                                            <li>
+                                                <app-paper [paper]="reading"></app-paper>
+                                            </li>
+                                        }
+                                    </ng-container>
+                                }
+                            </ul>
+                            @if(event.notes) {
+                                <div>
+                                    <h3>Notes</h3>
+                                    <p [innerHTML]="event.notes"></p>
+                                </div>
+                            }
+                            @if(event.type == 'officehours_daniel') {
+                                <h2>{{event.label}}</h2>
+                            }
+                            @else if(event.type == 'holiday' || event.type == 'absence') {
+                                <h2>{{event.title}}</h2>
+                            }
+                            @if(event.anchor && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')) {
+                                <div class="title">
+                                    <h2>Due: <a href="/{{event.type}}#{{event.anchor}}">{{event.title}}</a></h2>
+                                </div>   
+                            }
+                            @if(!event.anchor && event.link && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')) {
+                                <div class="title">
+                                    <h2>Due: <a [href]="event.link">{{event.title}}</a></h2>
+                                </div>
+                            }
+                            @if(!event.link && !event.anchor && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')) {
+                                <h2>Due: {{event.title}}</h2>
+                            }
+                            @if(event.type == 'project' || event.type == 'due' || event.type == 'assignments') {
+                                <div>{{event.name}}</div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</main>

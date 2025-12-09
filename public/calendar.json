@@ -1,0 +1,321 @@
+{
+	"class_default": {
+		"time": "12:30",
+		"duration": "80"
+	},
+	"events" : [
+		{
+			"date": "2026-01-06",
+			"type": "class",
+			"title": "History & Course Overview",
+			"readings": [
+				{
+					"authors": ["Susanne Bødker"],
+					"title": "When Second Wave HCI Meets Third Wave Challenges",
+					"venue": "NordiCHI",
+					"date": "2006",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1182475.1182476",
+					"optional": true
+				},
+				{
+					"authors": ["Susanne Bødker"],
+					"title": "Third-wave HCI, 10 Tears Later--Participation and Sharing",
+					"venue": "Interactions",
+					"volume": 22,
+					"issue": 5,
+					"date": "2015",
+					"link": "https://dl.acm.org/doi/10.1145/2804405",
+					"optional": true
+				},
+				{
+					"authors": ["Steve Harrison", "Deborah Tatar", "Phoebe Sengers"],
+					"title": "The Three Paradigms of HCI",
+					"venue": "alt.CHI",
+					"date": "2007",
+					"link": "https://people.cs.vt.edu/srh/Downloads/HCIJournalTheThreeParadigmsofHCI.pdf",
+					"optional": true
+				}
+			]
+		},
+		{
+			"date": "2026-01-08",
+			"type": "class",
+			"leaders": ["Daniel"],
+			"title": "Research Contribution Types",
+			"readings": [
+				{
+					"authors": ["Jacob O. Wobbrock", "Julie A. Kientz"],
+					"title": "Research Contributions in Human-Computer Interaction",
+					"venue": "Interactions",
+					"volume": 23,
+					"issue": 3,
+					"date": "2016",
+					"link": "https://dl.acm.org/doi/10.1145/2907069"
+				},
+				{
+					"authors": ["CHI 2024"],
+					"title": "Contributions to CHI",
+					"link":"https://chi2025.acm.org/submission-guides/contributions-to-chi/",
+					"date": "2024",
+					"optional":true
+				}
+			]
+		},
+		{
+			"date": "2026-01-09",
+			"type": "due",
+			"title": "Discussion Leading Preferences"
+		},
+		{
+			"date": "2026-01-13",
+			"type": "class",
+			"title": "Anatomy of an HCI Paper",
+			"leaders": ["Daniel"],
+			"readings": [
+				{
+					"authors": ["Jacob O. Wobbrock"],
+					"title": "Catchy Titles are Good: But Avoid Being Cute",
+					"venue": "White Paper",
+					"date": "2015",
+					"link": "https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2015.pdf"
+				},
+				{
+					"authors": ["Berkeley Student Learning Center"],
+					"title": "Reverse Outlining Worksheet",
+					"date": "2008",
+					"link": "https://slc.berkeley.edu/writing-worksheets-and-other-writing-resources/reverse-outlining-worksheet"
+				},
+				{
+					"authors": ["Berkeley Student Learning Center"],
+					"title": "So You've Finished a First Draft: Reverse Outlining",
+					"date": "2008",
+					"link": "https://slc.berkeley.edu/writing-worksheets-and-other-writing-resources/so-youve-finished-first-draft-reverse-outlining"
+				},
+				{
+					"authors": ["Berkeley Student Learning Center"],
+					"title": "Your Paper is a Toolbox: The Art of the Backwards Outline",
+					"date": "2008",
+					"link": "https://slc.berkeley.edu/writing-worksheets-and-other-writing-resources/your-paper-toolbox-art-backwards-outline",
+					"optional": true
+				}
+			]
+		},
+		{
+			"date": "2026-01-15",
+			"type": "class",
+			"title": "TBD",
+			"leaders": ["Daniel"]
+		},
+		{
+			"date": "2026-01-20",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+				
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-01-22",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-01-27",
+			"type": "assignments",
+			"title": "Reverse Outline",
+			"anchor": "reverseoutline",
+			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511073"
+		},
+		{
+			"date": "2026-01-27",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+				
+			],
+			"readings": [
+				
+			]
+		},
+		{
+			"date": "2026-01-29",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-03",
+			"type": "assignments",
+			"title": "Proposal 1 Groups",
+			"anchor": "proposal1groups"
+		},
+		{
+			"date": "2026-02-03",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+				
+			],
+			"readings": [
+				
+			]
+		},
+		{
+			"date": "2026-02-05",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-10",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-12",
+			"type": "assignments",
+			"title": "Proposal 1 Draft",
+			"anchor": "proposal1draft",
+			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511076"
+		},
+		{
+			"date": "2026-02-12",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-17",
+			"type": "assignments",
+			"title": "Peer Feedback on Proposal 1",
+			"anchor": "proposal1feedback"
+		},
+		{
+			"date": "2026-02-17",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+			],
+			"readings": [
+				
+			]
+		},
+		{
+			"date": "2026-02-18",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-23",
+			"type": "assignments",
+			"title": "Proposal 1 Final Submission",
+			"anchor": "proposal1final",
+			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511074"
+		},
+		{
+			"date": "2026-02-24",
+			"type": "class",
+			"title": "Overview of TBD",
+			"leaders": ["TBD"],
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-26",
+			"type": "assignments",
+			"title": "Proposal 2 Groups",
+			"anchor": "proposal2groups"
+		},
+		{
+			"date": "2026-02-26",
+			"type": "class",
+			"title": "Discussion of TBD",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-03",
+			"type": "class",
+			"title": "Subcommittee Grab Bag, Part 1?",
+			"leaders": ["TBD"],
+			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-05",
+			"type": "assignments",
+			"title": "Proposal 2 Draft",
+			"anchor": "proposal2draft",
+			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511078"
+		},
+		{
+			"date": "2026-03-05",
+			"type": "class",
+			"title": "Subcommittee Grab Bag, Part 2?",
+			"leaders": ["Daniel"],
+			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-10",
+			"type": "assignments",
+			"title": "Peer Feedback on Proposal 2",
+			"anchor": "proposal2feedback"
+		},
+		{
+			"date": "2026-03-10",
+			"type": "class",
+			"title": "My First CHI Paper",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-12",
+			"type": "class",
+			"title": "HCI Research & Publication Process",
+			"leaders": ["TBD"],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-17",
+			"type": "assignments",
+			"title": "Proposal 2 Final Submission",
+			"anchor": "proposal2final",
+			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511075"
+		}
+	]
+}

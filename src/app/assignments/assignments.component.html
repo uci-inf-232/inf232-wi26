@@ -1,0 +1,154 @@
+<main class="container-fluid">
+    <h1>Assignments</h1>
+    <p>There will be three assignments in this class, one reverse outline of HCI research papers conducted individually and two research proposals developed in small groups.</p>
+    <h2 id="reverseoutline">Reverse Outline</h2>
+    <p>Select two <a href="https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/">subcommittees at CHI</a> that are of interest to you. Select one subcommittee which focuses on a method or approach, and one which focuses on an application area (reasonable people would disagree with Daniel's categorization, but it's intended to encourage reflection on how contributions are articulated). You may select a subcommittee which we are not planning to cover this quarter, and are encouraged to select at least one subcommittee which is not a typical area you would plan to conduct research in.</p>
+    <ul>
+       <li>Methods and Approaches:</li>
+       <ul>
+          <li>User Experience and Usability</li>
+          <li>Design</li>
+          <li>Building Devices: Hardware, Materials, and Fabrication</li>
+          <li>Interacting with Devices: Interaction Techniques & Modalities</li>
+          <li>Blending Interaction: Engineering Interactive Systems & Tools</li>
+          <li>Understanding People: Theory, Concepts, and Methods</li>
+          <li>Critical Computing, Sustainability, and Social Justice</li>
+          <li>Computational Interaction</li>
+       </ul>
+       <li>Application Areas:</li>
+       <ul>
+          <li>Specific Applications Areas</li>
+          <li>Learning, Education, and Families</li>
+          <li>Interaction Beyond the Individual</li>
+          <li>Games and Play</li>
+          <li>Privacy and Security</li>
+          <li>Visualization</li>
+          <li>Health</li>
+          <li>Accessibility and Aging</li>
+       </ul>
+    </ul>
+    <p>For each of the two subcommittees, select a paper from the list of example papers, ideally a paper which you have not read previously. Reverse outline each of the two papers to identify the intended contribution, literature the contribution builds upon, and main findings. Specifically, each reverse outline should include the following (3-4 pages):</p>
+    <ul>
+       <li>Indication of which subcommittee and paper was selected. Include a full citation and a link to the paper (1 sentence).</li>
+       <li>Deconstruction of <em>each paragraph in the introduction</em>, identifying what argument is being made and how it is being articulated. How is the problem or question being introduced--does it start with a societal problem, a technology problem, a problem with the research field, or something else? How is the transition made from this problem or question to the specific contribution of this work? How does the paper transition to the methodological approach used? How does the paper introduce its key findings or takeaways? (N paragraphs, one for each in the introduction)</li>
+       <li>Description of the paper's <em>contribution to the HCI literature</em> and identification of what kind of <a href="https://dl.acm.org/doi/10.1145/2907069">research contribution</a> is being made. What words and/or writing structure does the paper use to signal the intended contribution? (1 paragraph).</li>
+       <li>Description of the <em>bodies of literature</em> the submission builds upon, and articulation of how it extends that literature. What gap in knowledge is this work trying to fill? What words and/or writing structure does the paper use to signal the gap? (1 paragraph).</li>
+       <li>Description of the <em>main finding(s)</em> of the paper. These will elaborate on the contribution described above, perhaps by offering empirical findings, supporting evidence to the argument, or suggestions for how to design or implement an interface (1 paragraph).</li>
+       <li>Description of the <em>main takeaway(s)</em> for the HCI community based on the findings. These may be implications for the design of technology or understanding of how people use or coexist with technology (1 paragraph).</li>
+    </ul>
+    <p>Finally, write one additional paragraph reflecting on the organization of the two papers. In what section(s) were each of the above topics written? Were the sections roughly the same across the two papers you read, or were there differences? If there were differences, why do you think they were structured differently?</p>
+    <p>The papers' authors may (or may not) have clearly included the above in their paper. You must write these answers <em>in your own words</em> rather than copying the author's descriptions. You may find it helpful to refer to Wobbrock's <a href="https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2015.pdf">Catchy Titles are Good: But Avoid Being Cute</a> as you consider how the papers are structured. You do not need to have separate headings for each sub-question (like how the problem or question is introduced); feel free to use the sub-questions as guides of questions to consider.</p>
+    <h3>Grading</h3>
+    <p>This will be graded on a scale of 15 points, broken down as follows.</p>
+    <ul>
+       <li>Deconstruction of the introduction (4 points)</li>
+       <li>The paper's contributions to HCI (3 points)</li>
+       <li>The bodies of literature the papers draw on (2 points)</li>
+       <li>The main findings of the papers (2 points)</li>
+       <li>The main takeaways for HCI based on the findings (2 points)</li>
+       <li>Reflection on the organization and structure of the papers (2 points)</li>
+    </ul>
+    @for(assignment of assignments; track assignment) {
+        <span>
+            @if(assignment.anchor == 'reverseoutline') {
+                <div>
+                    <p>Due {{assignment.dueLong}}.</p>
+                    <p>Submit your assignment as a PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
+                 </div>
+            }
+         </span>
+    }
+    <h2 id="proposal1draft">Research Proposal 1</h2>
+    <p>Imagine that three funding agencies interested in supporting work in HCI (e.g., the National Science Foundation, a Fellowship funder) have recently put out three different calls for proposals:</p>
+    <ul>
+       <li>The Future of Health</li>
+       <li>The Future of Critical Computing, Sustainability, & Social Justice</li>
+       <li>The Future of User Interface Software Technology</li>
+    </ul>
+    <p>Each agency has a mission to fund interesting and important work on that particular topic. But their focus is relatively narrow. They want to be funding the best work on their particular topic, which might not necessarily be aligned with the primary focus, domain, or approach of your research. Therefore, you will have to think about how to position your work in a way which is in line with their priorities.</p>
+    <p>Pretend you are a researcher whose work is at the intersection of two of these areas (e.g., <span class="tbd">TBD and TBD</span>). In order to maximize the chances of your work being funded, you want to submit your proposal to two of these calls. You may pick any two, though it's encouraged that at least one is an area you are less familiar with. Identify a research topic that sits at that intersection. Develop two proposals, one for each call, which introduces the importance of your research topic and briefly outlines a project that you could conduct.</p>
+    <p>The research proposals will help you develop the skill of articulating the importance of research topics in HCI, and help you describe the research value of a topic to multiple audiences. For examples of real calls for proposals in these kinds of areas, see NSF's solicitations relating to <a href="https://www.nsf.gov/pubs/2023/nsf23543/nsf23543.htm#toc">The Future of Work</a> and <a href="https://www.nsf.gov/pubs/2023/nsf23614/nsf23614.htm#toc">Smart Health in the AI Era</a>.</p>
+    <p id="proposal1groups">The research proposal must be completed in groups of two to three. Individuals or larger groups will only be allowed under exceptional circumstances.</p>
+    @for(assignment of assignments; track assignment) {
+        <span>
+            @if(assignment.anchor == 'proposal1groups') {
+                <div>
+                    <p>Please let Daniel know who is in your group by {{assignment.dueLong}}.</p>
+                 </div>
+            }
+         </span>
+    }
+    <h3>Structure</h3>
+    <p>Each proposal should include the following (about 2 pages):</p>
+    <ul>
+       <li>Indication of which call the proposal is intended for (1 sentence).</li>
+       <li>An introduction (~4 paragraphs), which describes the importance of the research topic. The two proposals will inevitably have some overlap, but each should relate the research topic to the call for proposal it is being submitted to. For example, the larger problem being introduced is probably different between the two calls, even if the specific research question is the same or similar. Each proposal will likely also result in slightly different intended contributions, aligning with the call's topic. If you include related work, which you might want to, consider how that work connects to the call's topic.</li>
+       <li>Description of a research question related to that topic (~1 sentence) that could be answered.</li>
+       <li>A sketch (~1 paragraph) of how the research question could be answered. Provide a high-level description: the style of <a href="https://dl.acm.org/doi/10.1145/2907069">HCI research contribution</a> which would be made, describe the style of study, artifact, dataset, argument, etc. that could be conducted or produced. For example, it is sufficient to describe what sort of data a study would result in (qualitative, quantitative, mixed), to articulate the theories the argument would build off of, to describe the design of artifact that could be developed, etc. It is not necessary to propose a method of analysis (e.g., statistical, grounded theory), describe a number of participants, or describe how an artifact could be implemented.</li>
+    </ul>
+    <p>Finally, the paper should include a reflection (~1 page) considering how the two proposals differ from one another. This reflection should discuss the framings in the two introductions, describing the similarities and differences in how the topic's importance was articulated. It should also briefly compare how the research questions and approaches to answering them differed across the proposals. Your final document should be no more than 5 pages in total: about 2 pages for each of the two proposals, plus 1 page for reflection. You may include references to help motivate the research topic, which do not count towards the page limit.</p>
+    <p>It is not expected that you or anyone in your group is an expert on the research topic you focus on. Your proposal will therefore not be evaluated on the novelty of the research questions you propose. You will be primarily evaluated on the attempt at motivating your research area in light of the different calls and developing clear research proposals.</p>
+    <h3>Draft Submission</h3>
+    <p>The draft will be graded on completion, with partial credit or no credit reserved for incomplete proposals.</p>
+    @for(assignment of assignments; track assignment) {
+        <span>
+            @if(assignment.anchor == 'proposal1draft') {
+                <div>
+                    <p>Due {{assignment.dueLong}}.</p>
+                    <p>Submit your draft as a PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
+                 </div>
+            }
+         </span>
+    }
+    <h3 id="proposal1feedback">Feedback</h3>
+    <p>You will be assigned two other groups to leave feedback on. Please read the other group's drafts on Perusall and leave feedback. In-class, we will discuss your proposals and the feedback you received.</p>
+    <h3 id="proposal1final">Final Submission</h3>
+    <p>You are encouraged to iterate on your draft after the feedback session, addressing comments to form a stronger proposal. It is expected that all drafts will have room for improvement, but the amount of iteration required will vary by group.</p>
+    @for(assignment of assignments; track assignment) {
+        @if(assignment.anchor == 'proposal1final') {
+            <span>
+                <div>
+                   <p>Due {{assignment.dueLong}}.</p>
+                   <p>Submit your final proposal as a PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
+                </div>
+             </span>
+        }
+    }
+    <h3>Grading</h3>
+    <p>This will be graded on a scale of 15 points, broken down as follows.</p>
+    <ul>
+       <li>Submission of a complete draft (2 points)</li>
+       <li>Quality of the final proposal (13 points)</li>
+       <ul>
+          <li>Articulation of the importance and relevance of the research topic in the introductions (6 points)</li>
+          <li>Identification of clear research questions (2 points)</li>
+          <li>Creation of sketches which, if undertaken, would help answer the research questions (2 points)</li>
+          <li>Reflection on the proposal differences (3 points)</li>
+       </ul>
+    </ul>
+    <h2 id="proposal2draft">Research Proposal 2</h2>
+    <p>Proposal 2 follows an identical structure to Proposal 1. However, the funding agency has instead put out three new calls for proposals:</p>
+    <ul>
+       <li>The Future of Accessibility & Aging</li>
+       <li>The Future of Privacy & Security</li>
+       <li>The Future of Interaction Beyond the Individual</li>
+    </ul>
+    <p>Imagine you are a different researcher whose work is at the intersection of two of these areas. Develop two proposals, one for each call, which introduces the importance of your research topic and briefly outlines a project that you could conduct. Structure your proposals the same as your proposals in the prior assignment.</p>
+    <p>Proposal 2 is again completed in groups of two to three. Working with different people than for the previous proposal may help you learn from other's styles, but may not be possible given other constraints.</p>
+    <h3 id="proposal2final">Submission and Grading</h3>
+    <p id="proposal2feedback">You will be assigned two other groups to leave feedback on. Please read the other group's drafts on Perusall and leave feedback. Proposal 2 will be graded on the same 15-point scale as Proposal 1.</p>
+    @for(assignment of assignments; track assignments) {
+        <span>
+            <div>
+                @if(assignment.anchor == 'proposal2draft') {
+                    <p>Draft due {{assignment.dueLong}}.</p>
+                    <p>Submit your draft as a PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
+                }
+                @else if(assignment.anchor == 'proposal2final') {
+                    <p>Final proposal due {{assignment.dueLong}}.</p>
+                    <p>Submit your final proposal as a PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
+                }
+            </div>
+    </span>
+    }
+ </main>

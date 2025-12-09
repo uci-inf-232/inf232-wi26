@@ -1,0 +1,2 @@
+ng build --configuration production
+ng deploy --repo https://github.com/uci-inf-232/inf232-wi26.git --cname=inf232-wi26.depstein.net --dir=dist/inf232-wi26/browser
