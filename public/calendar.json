@@ -35,7 +35,8 @@
 					"link": "https://people.cs.vt.edu/srh/Downloads/HCIJournalTheThreeParadigmsofHCI.pdf",
 					"optional": true
 				}
-			]
+			],
+			"slides": "slides/c1-introduction.pdf"
 		},
 		{
 			"date": "2026-01-08",
@@ -103,8 +104,28 @@
 		{
 			"date": "2026-01-15",
 			"type": "class",
-			"title": "TBD",
-			"leaders": ["Daniel"]
+			"title": "HCI Research Process",
+			"leaders": ["Daniel"],
+			"readings": [
+				{
+					"authors": [ "CHI 2025 Papers Chairs"],
+					"title": "CHI 2025 — Papers Track, post-review report (Round 1)",
+					"date": "2025",
+					"link": "https://chi2025.acm.org/chi-2025-papers-track-post-review-report-round-1/"
+				},
+				{
+					"authors": [ "Himanshu Verma"],
+					"title": "CHI 2025 – Papers track, post-PC outcomes report",
+					"date": "2025",
+					"link": "https://chi2025.acm.org/chi-2025-papers-track-post-pc-outcomes-report/"
+				},
+				{
+					"authors": ["CHI 2026 Technical Chairs", "CHI 2026 Papers Chairs"],
+					"title": "Revised CHI 2026 Papers Desk Reject Process",
+					"date": "2025",
+					"link": "https://chi2026.acm.org/2025/08/08/revised-chi-2026-papers-desk-reject-process/"
+				}
+			]
 		},
 		{
 			"date": "2026-01-20",
@@ -305,7 +326,7 @@
 		{
 			"date": "2026-03-12",
 			"type": "class",
-			"title": "HCI Research & Publication Process",
+			"title": "TBD",
 			"leaders": ["TBD"],
 			"readings": [
 			]
