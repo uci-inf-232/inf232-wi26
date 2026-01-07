@@ -60,7 +60,8 @@
 					"date": "2024",
 					"optional":true
 				}
-			]
+			],
+			"slides": "slides/c2-research_contributions.pdf"
 		},
 		{
 			"date": "2026-01-09",
