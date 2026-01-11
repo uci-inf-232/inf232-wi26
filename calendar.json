@@ -101,7 +101,8 @@
 					"link": "https://slc.berkeley.edu/writing-worksheets-and-other-writing-resources/your-paper-toolbox-art-backwards-outline",
 					"optional": true
 				}
-			]
+			],
+			"slides": "slides/c3-anatomy.pdf"
 		},
 		{
 			"date": "2026-01-15",
@@ -127,7 +128,8 @@
 					"date": "2025",
 					"link": "https://chi2026.acm.org/2025/08/08/revised-chi-2026-papers-desk-reject-process/"
 				}
-			]
+			],
+			"slides": "slides/c4-process_methods.pdf"
 		},
 		{
 			"date": "2026-01-20",
