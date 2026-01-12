@@ -134,19 +134,55 @@
 		{
 			"date": "2026-01-20",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of Health",
+			"leaders": ["Yuna Lee", "Hayoung Woo"],
 			"venues": [
-				
+				{
+					"name": "CHI Subcommittee",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#health"
+				},
+				{
+					"name": "JAMIA",
+					"link": "https://academic.oup.com/jamia/pages/General_Instructions",
+					"notes": "Read 'About the Journal'"
+				},
+				{
+					"name": "AMIA",
+					"link": "https://amia.org/education-events/amplify-informatics-conference/summit-proposals",
+					"notes": "Read 'Programmatic Themes'"
+				}
 			],
 			"readings": [
+				{
+					"authors": ["Predrag Klasnja", "Sunny Consolvo", "Wanda Pratt"],
+					"title": "How to Evaluate Technologies for Health Behavior Change in HCI Research",
+					"venue": "CHI",
+					"date": "2011",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1978942.1979396"
+				},
+				{
+					"authors": ["Geraldine Fitzpatrick", "Gunnar Ellingsen"],
+					"title": "A Review of 25 dates of CSCW Research in Healthcare: Contributions, Challenges, and Future Agendas",
+					"venue": "Computer Supported Cooperative Work (CSCW)",
+					"volume": 22,
+					"date": "2013",
+					"link": "https://link.springer.com/article/10.1007/s10606-012-9168-0"
+				},
+				{
+					"authors": ["Pedro Sanches", "Axel Janson", "Pavel Karpashevich", "Camille Nadal", "Chengcheng Qu", "Claudia Daudén Roquet", "Muhammad Umair", "Charles Windlin", "Gavin Doherty", "Kristina Höök", "Corina Sas"],
+					"title": "HCI and Affective Health: Taking Stock of a Decade of Studies and Charting Future Research Directions",
+					"venue": "CHI",
+					"date": "2019",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3290605.3300475",
+					"optional": true
+				}
 			]
 		},
 		{
 			"date": "2026-01-22",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of Health",
+			"leaders": ["Yuna Lee", "Hayoung Woo"],
 			"readings": [
 			]
 		},
@@ -160,20 +196,40 @@
 		{
 			"date": "2026-01-27",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of Design",
+			"leaders": ["Jon Kolko", "Jon Daniel Norombaba"],
 			"venues": [
-				
+				{
+					"name": "CHI Subcommittee",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#design"
+				},
+				{
+					"name": "DIS",
+					"link": "https://dis.acm.org/2026/papers/"
+				}
 			],
 			"readings": [
-				
+				{
+					"authors": ["John Zimmerman", "Jodi Forlizzi", "Shelley Evenson"],
+					"title": "Research through Design as a Method for Interaction Design Research in HCI",
+					"venue": "CHI",
+					"date": "2007",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1240624.1240704"
+				},
+				{
+					"authors": ["Phoebe Sengers", "Kirsten Boehner", "Shay David", "Joseph 'Jofish' Kaye"],
+					"title": "Reflective design",
+					"venue": "CC",
+					"date": "2005",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1094562.1094569"
+				}
 			]
 		},
 		{
 			"date": "2026-01-29",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of Design",
+			"leaders": ["Jon Kolko", "Jon Daniel Norombaba"],
 			"readings": [
 			]
 		},
@@ -186,31 +242,102 @@
 		{
 			"date": "2026-02-03",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of UIST",
+			"leaders": ["Moulayna Johnson Sidi Baba"],
 			"venues": [
-				
+				{
+					"name": "CHI Subcommittee (Developing Novel Devices)",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#developing_devices"
+				},
+				{
+					"name": "CHI Subcommittee (Interacting with Devices)",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#interacting_with_devices"
+				},
+				{
+					"name": "CHI Subcommittee (Blending Interaction)",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#blending_interaction"
+				},
+				{
+					"name": "UIST",
+					"link": "https://uist.acm.org/2026/cfp/"
+				}
 			],
 			"readings": [
-				
+				{
+					"authors":["Brad Myers", "Scott E. Hudson", "Randy Pausch"],
+					"title": "Past, Present, and Future of User Interface Sotware Tools",
+					"venue": "TOCHI",
+					"volume": 7,
+					"issue": 1,
+					"date": "2000",
+					"link": "https://dl.acm.org/doi/abs/10.1145/344949.344959"
+				},
+				{
+					"authors": ["Hiroshi Ishii", "Brygg Ullmer"],
+					"title": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+					"venue": "CHI",
+					"date": "1997",
+					"link": "https://dl.acm.org/doi/10.1145/258549.258715"
+				},
+				{
+					"authors": ["Jun Rekimoto"],
+					"title": "Pick-and-drop: a Direct Manipulation Technique for Multiple Computer Envirionments",
+					"venue": "UIST",
+					"date": "1997",
+					"link": "https://dl.acm.org/doi/10.1145/263407.263505"
+				},
+				{
+					"authors":["James Fogarty"],
+					"title": "Code and Contribution in Interactive Systems Research",
+					"venue": "#HCI.Tools Workshop at CHI",
+					"date": "2017",
+					"link": "https://homes.cs.washington.edu/~jfogarty/publications/workshop-chi2017-codeandcontribution.pdf",
+					"optional": true
+				}
 			]
 		},
 		{
 			"date": "2026-02-05",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of UIST",
+			"leaders": ["Moulayna Johnson Sidi Baba"],
 			"readings": [
 			]
 		},
 		{
 			"date": "2026-02-10",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of Privacy & Security",
+			"leaders": ["Sihat Afnan", "Karen Phan"],
 			"venues": [
+				{
+					"name": "CHI Subcommittee",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#privacy"
+				},
+				{
+					"name": "USENIX Security",
+					"link": "https://www.usenix.org/conference/usenixsecurity26/call-for-papers"
+				},
+				{
+					"name": "SOUPS",
+					"link": "https://soups.page/index.html"
+				}
 			],
 			"readings": [
+				{
+					"authors": ["Alessandro Acquisti", "Idris Adjerid", "Rebecca Balebako", "Laura Brandimarte", "Lorrie Faith Cranor", "Saranga Komanduri", "Pedro Giovanni Leon", "Norman Sadeh", "Florian Schaub", "Manya Sleeper", "Yang Wang", "Shomir Wilson"],
+					"title": "Nudges for Privacy and Security: Understanding and Assisting Users’ Choices Online",
+					"venue": "CSUR",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3054926"
+				},
+				{
+					"authors": ["Tara Matthews", "Kathleen O'Leary", "Anna Turner", "Manya Sleeper", "Jill Woelfer", "Martin Shelton", "Cori Mathorne", "Elizabeth F. Churchill", "Sunny Consolvo"],
+					"title": "Stories from Survivors: Privacy & Security Practices when Coping with Intimate Partner Abuse",
+					"venue": "CHI",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/10.1145/3025453.3025875"
+				}
 			]
 		},
 		{
@@ -223,8 +350,8 @@
 		{
 			"date": "2026-02-12",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of Privacy & Security",
+			"leaders": ["Sihat Afnan", "Karen Phan"],
 			"readings": [
 			]
 		},
@@ -237,19 +364,61 @@
 		{
 			"date": "2026-02-17",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of Learning, Education, & Families",
+			"leaders": ["Victoria Hays", "Sarah Oide"],
 			"venues": [
+				{
+					"name": "CHI Subcommittee",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#learning"
+				},
+				{
+					"name": "IDC",
+					"link": "https://idc.acm.org/2026/calls/full-and-short-papers/"
+				},
+				{
+					"name": "Learning at Scale",
+					"link": "https://learningatscale.hosting.acm.org/las2026/call-for-papers/"
+				}
 			],
 			"readings": [
-				
+				{
+					"authors": ["Allison Druin"],
+					"title": "Cooperative Inquiry: Developing New Technologies for Children and with Children",
+					"venue": "CHI",
+					"date": "1999",
+					"link": "https://dl.acm.org/doi/abs/10.1145/302979.303166"
+				},
+				{
+					"authors": ["Saba Kawas", "Ye Yuan", "Akeiylah DeWitt", "Qiao Jin", "Susanne Kirchner", "Abagail Bilger", "Ethan Grantham", "Julie A. Kientz", "Andrea Tartaro", "Svetlana Yarosh"],
+					"title": "Another Decade of IDC Research: Examining and Reflecting on Values and Ethics",
+					"venue": "IDC",
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3392063.3394436"
+				},
+				{
+					"authors": ["Philip J. Guo", "Juho Kim", "Rob Rubin"],
+					"title": "How Video Production Affects Student Engagement: an Empirical Study of MOOC Videos",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2556325.2566239",
+					"optional": true
+				},
+				{
+					"authors": ["Elliot Soloway", "Mark Guzdial", "Kenneth E. Hay"],
+					"title": "Learner-Centered Design: The Challenge for HCI in the 21st Century",
+					"venue": "Interactions",
+					"volume": 1,
+					"issue": 2,
+					"date": "1994",
+					"link": "https://dl.acm.org/doi/10.1145/174809.174813",
+					"optional": true
+				}
 			]
 		},
 		{
 			"date": "2026-02-18",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of Learning, Education, & Families",
+			"leaders": ["Victoria Hays", "Sarah Oide"],
 			"readings": [
 			]
 		},
@@ -263,11 +432,58 @@
 		{
 			"date": "2026-02-24",
 			"type": "class",
-			"title": "Overview of TBD",
-			"leaders": ["TBD"],
+			"title": "Overview of Accessibility & Aging",
+			"leaders": ["Wendy Sanka", "Yiqi Xiao"],
 			"venues": [
+				{
+					"name": "CHI Subcommittee",
+					"link": "https://chi2026.acm.org/authors/papers/selecting-a-subcommittee/#accessibility_and_aging"
+				},
+				{
+					"name": "ASSETS",
+					"link": "https://assets25.sigaccess.org/call_for_papers.html"
+				}
 			],
 			"readings": [
+				{
+					"authors": ["Kelly Mack", "Emma McDonnell", "Dhruv Jain", "Lucy Lu Wang", "Jon E. Froehlich", "Leah Findlater"],
+					"title": "What Do We Mean by “Accessibility Research”?: A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019",
+					"venue": "CHI",
+					"date": "2021",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3411764.3445412"
+				},
+				{
+					"authors": ["Jennifer Mankoff", "Gillian R. Hayes", "Devva Kasnitz"],
+					"title": "Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology",
+					"venue": "ASSETS",
+					"date": "2010",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1878803.1878807"
+				},
+				{
+					"authors": ["Jacob O. Wobbrock", "Shaun K. Kane", "Krzysztof Z. Gajos", "Susumu Harada", "Jon Froehlich"],
+					"title": "Ability-Based Design: Concept, Principles, and Examples",
+					"venue": "TACCESS",
+					"volume": 3,
+					"issue": 3,
+					"date": "2011",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1952383.1952384"
+				},
+				{
+					"authors": ["Shaun K. Kane", "Jeffrey P. Bigham", "Jacob O. Wobbrock"],
+					"title": "Slide Rule: Making Mobile Touch Screens Accessible to Blind People Using Multi-Touch Interaction Techniques",
+					"venue": "ASSETS",
+					"date": "2008",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1414471.1414487",
+					"optional": true
+				},
+				{
+					"authors": ["Cynthia L. Bennett", "Erin Brady", "Stacy M. Branham"],
+					"title": "Interdependence as a Frame for Assistive Technology Research and Design",
+					"date": "2018",
+					"venue": "ASSETS",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3234695.3236348",
+					"optional": true
+				}
 			]
 		},
 		{
@@ -279,8 +495,8 @@
 		{
 			"date": "2026-02-26",
 			"type": "class",
-			"title": "Discussion of TBD",
-			"leaders": ["TBD"],
+			"title": "Discussion of Accessibility & Aging",
+			"leaders": ["Wendy Sanka", "Yiqi Xiao"],
 			"readings": [
 			]
 		},
@@ -306,7 +522,7 @@
 			"date": "2026-03-05",
 			"type": "class",
 			"title": "Subcommittee Grab Bag, Part 2?",
-			"leaders": ["Daniel"],
+			"leaders": ["TBD"],
 			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
 			"venues": [
 			],
