@@ -432,8 +432,35 @@
 		{
 			"date": "2026-02-24",
 			"type": "class",
+			"title": "Subcommittee Grab Bag?",
+			"leaders": ["Daniel"],
+			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-02-26",
+			"type": "assignments",
+			"title": "Proposal 2 Groups",
+			"anchor": "proposal2groups"
+		},
+		{
+			"date": "2026-02-26",
+			"type": "class",
+			"title": "My First CHI Paper?",
+			"leaders": ["TBD"],
+			"venues": [
+			],
+			"readings": [
+			]
+		},
+		{
+			"date": "2026-03-03",
+			"type": "class",
 			"title": "Overview of Accessibility & Aging",
-			"leaders": ["Wendy Sanka", "Yiqi Xiao"],
+			"leaders": ["Wendy Sanka", "Yiqi Xiao", "Anne Marie Piper (Guest Host)"],
 			"venues": [
 				{
 					"name": "CHI Subcommittee",
@@ -487,27 +514,10 @@
 			]
 		},
 		{
-			"date": "2026-02-26",
-			"type": "assignments",
-			"title": "Proposal 2 Groups",
-			"anchor": "proposal2groups"
-		},
-		{
-			"date": "2026-02-26",
+			"date": "2026-03-05",
 			"type": "class",
 			"title": "Discussion of Accessibility & Aging",
-			"leaders": ["Wendy Sanka", "Yiqi Xiao"],
-			"readings": [
-			]
-		},
-		{
-			"date": "2026-03-03",
-			"type": "class",
-			"title": "Subcommittee Grab Bag, Part 1?",
-			"leaders": ["TBD"],
-			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
-			"venues": [
-			],
+			"leaders": ["Wendy Sanka", "Yiqi Xiao", "Stacy Branham (Guest Host)"],
 			"readings": [
 			]
 		},
@@ -519,17 +529,6 @@
 			"link": "https://canvas.eee.uci.edu/courses/69569/assignments/1511078"
 		},
 		{
-			"date": "2026-03-05",
-			"type": "class",
-			"title": "Subcommittee Grab Bag, Part 2?",
-			"leaders": ["TBD"],
-			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
-			"venues": [
-			],
-			"readings": [
-			]
-		},
-		{
 			"date": "2026-03-10",
 			"type": "assignments",
 			"title": "Peer Feedback on Proposal 2",
@@ -538,8 +537,8 @@
 		{
 			"date": "2026-03-10",
 			"type": "class",
-			"title": "My First CHI Paper",
-			"leaders": ["TBD"],
+			"title": "TBD",
+			"leaders": ["Madhu Reddy"],
 			"readings": [
 			]
 		},
@@ -547,7 +546,7 @@
 			"date": "2026-03-12",
 			"type": "class",
 			"title": "TBD",
-			"leaders": ["TBD"],
+			"leaders": ["Paul Dourish"],
 			"readings": [
 			]
 		},
