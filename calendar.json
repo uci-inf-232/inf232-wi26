@@ -206,6 +206,10 @@
 				{
 					"name": "DIS",
 					"link": "https://dis.acm.org/2026/papers/"
+				},
+				{
+					"name": "DRS",
+					"link": "https://drs2026.thedrs.org/conference/paper-submissions"
 				}
 			],
 			"readings": [
@@ -217,11 +221,13 @@
 					"link": "https://dl.acm.org/doi/abs/10.1145/1240624.1240704"
 				},
 				{
-					"authors": ["Phoebe Sengers", "Kirsten Boehner", "Shay David", "Joseph 'Jofish' Kaye"],
-					"title": "Reflective design",
-					"venue": "CC",
-					"date": "2005",
-					"link": "https://dl.acm.org/doi/abs/10.1145/1094562.1094569"
+					"authors": ["Richard Buchanan"],
+					"title": "Wicked Problems in Design Thinking",
+					"venue": "Design Issues",
+					"volume": 8,
+					"issue": 2,
+					"date": "1992",
+					"link": "https://www.jstor.org/stable/1511637?origin=JSTOR-pdf"
 				}
 			]
 		},
@@ -231,6 +237,20 @@
 			"title": "Discussion of Design",
 			"leaders": ["Jon Kolko", "Jon Daniel Norombaba"],
 			"readings": [
+				{
+					"authors": ["Jan Michel Aurenhammer"],
+					"title": "Strategic Design: The integration of the two fields of Strategy and Design",
+					"venue": "DRS",
+					"date": "2024",
+					"link": "https://doi.org/10.21606/drs.2024.1399"
+				},
+				{
+					"authors": ["Colin M. Gray", "Thomas Mildner", "Ritka Gairola"],
+					"title": "Getting Trapped in Amazon's \"Iliad Flow\": A Foundation for the Temporal Analysis of Dark Patterns",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713828"
+				}
 			]
 		},
 		{
