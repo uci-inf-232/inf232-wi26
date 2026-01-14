@@ -184,6 +184,20 @@
 			"title": "Discussion of Health",
 			"leaders": ["Yuna Lee", "Hayoung Woo"],
 			"readings": [
+				{
+					"authors": ["Daye Kang", "Jingjin Li", "Gilly Leshed", "Jeffrey M. Rzeszotarski", "Xi Lu"],
+					"title": "Towards Hormone Health: An Autoethnography of Long-Term Holistic Tracking to Manage PCOS",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713619"
+				},
+				{
+					"authors": ["Paul Calle", "Ruosi Shao", "Yunlong Liu", "Emily T. Hébert", "Darla E. Kendzor", "Jordan Neil", "Michael Businelle", "Chongle Pan"],
+					"title": "Towards Hormone Health: An Autoethnography of Long-Term Holistic Tracking to Manage PCOS",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3613904.3641965"
+				}
 			]
 		},
 		{
