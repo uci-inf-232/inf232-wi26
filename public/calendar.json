@@ -176,7 +176,8 @@
 					"link": "https://dl.acm.org/doi/abs/10.1145/3290605.3300475",
 					"optional": true
 				}
-			]
+			],
+			"slides": "slides/c5and6-health.pdf"
 		},
 		{
 			"date": "2026-01-22",
@@ -193,12 +194,13 @@
 				},
 				{
 					"authors": ["Paul Calle", "Ruosi Shao", "Yunlong Liu", "Emily T. Hébert", "Darla E. Kendzor", "Jordan Neil", "Michael Businelle", "Chongle Pan"],
-					"title": "Towards Hormone Health: An Autoethnography of Long-Term Holistic Tracking to Manage PCOS",
+					"title": "Towards AI-Driven Healthcare: Systematic Optimization, Linguistic Analysis, and Clinicians’ Evaluation of Large Language Models for Smoking Cessation Interventions",
 					"venue": "CHI",
 					"date": "2025",
 					"link": "https://dl.acm.org/doi/10.1145/3613904.3641965"
 				}
-			]
+			],
+			"slides": "slides/c5and6-health.pdf"
 		},
 		{
 			"date": "2026-01-27",
