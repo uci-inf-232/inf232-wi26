@@ -338,6 +338,20 @@
 			"title": "Discussion of UIST",
 			"leaders": ["Moulayna Johnson Sidi Baba"],
 			"readings": [
+				{
+					"authors": ["Narjes Pourjafarian", "Zhenming Yang", "Jeffrey Ian Lipton", "Benyamin Davaji", "Gregory D. Abowd"],
+					"title": "ProForm: Solder-Free Circuit Assembly Using Thermoforming",
+					"venue": "UIST",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3746059.3747628"
+				},
+				{
+					"authors": ["Liqi Cheng", "Hanze Jia", "Lingyun Yu", "Yihong Wu", "Shuainan Ye", "Dazhen Deng", "Hui Zhang", "Xiao Xie", "Yingcai Wu"],
+					"title": "VisCourt: In-Situ Guidance for Interactive Tactic Training in Mixed Reality",
+					"venue": "UIST",
+					"date": "2024",
+					"link": "https://dl.acm.org/doi/10.1145/3654777.3676466"
+				}
 			]
 		},
 		{
