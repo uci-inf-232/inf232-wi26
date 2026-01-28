@@ -403,6 +403,20 @@
 			"title": "Discussion of Privacy & Security",
 			"leaders": ["Sihat Afnan", "Karen Phan"],
 			"readings": [
+				{
+					"authors": ["Jingzhou Ye", "Yao Li", "Wenting Zou", "Xueqing Wang"],
+					"title": "From Awareness to Action: The Effects of Experiential Learning on Educating Users about Dark Patterns",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713493"
+				},
+				{
+					"authors": ["Florin Martius", "luisa Jansen", "Lukas Struck", "Arthi Arumugam", "Lisa Geirhaas", "Anna-Marie Ortloff", "Matthew Smith", "Christian Tiefnau"],
+					"title": "Out of Sight, Out of Mind? Exploring Data Protection Practices for Personal Data in Usable Security & Privacy Studies",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713654"
+				}
 			]
 		},
 		{
