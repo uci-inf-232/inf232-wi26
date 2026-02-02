@@ -245,7 +245,8 @@
 					"date": "1992",
 					"link": "https://www.jstor.org/stable/1511637?origin=JSTOR-pdf"
 				}
-			]
+			],
+			"slides": "slides/c7and8-design.pdf"
 		},
 		{
 			"date": "2026-01-29",
@@ -267,7 +268,8 @@
 					"date": "2025",
 					"link": "https://dl.acm.org/doi/10.1145/3706598.3713828"
 				}
-			]
+			],
+			"slides": "slides/c7and8-design.pdf"
 		},
 		{
 			"date": "2026-02-03",
@@ -484,6 +486,20 @@
 			"title": "Discussion of Learning, Education, & Families",
 			"leaders": ["Victoria Hays", "Sarah Oide"],
 			"readings": [
+				{
+					"authors": ["Tiffany D. Do", "Usama Bin Shafqat", "Elsie Ling", "Nikhil Sarda"],
+					"title": "PAIGE: Examining Learning Outcomes and Experiences with Personalized AI-Generated Educational Podcasts",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713460"
+				},
+				{
+					"authors": ["Valentina Andries", "Cara Wilson", "Harvey Everson", "Caroline McKinley", "Chris Elsden"],
+					"title": "The Secret Lives of Children’s Money: Exploring Children’s Financial Interactions in Transitions from Cash to Digital Monies",
+					"venue": "IDC",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3713043.3728852"
+				}
 			]
 		},
 		{
@@ -496,7 +512,7 @@
 		{
 			"date": "2026-02-24",
 			"type": "class",
-			"title": "Subcommittee Grab Bag?",
+			"title": "Subcommittee Grab Bag",
 			"leaders": ["Daniel"],
 			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
 			"venues": [
@@ -513,8 +529,8 @@
 		{
 			"date": "2026-02-26",
 			"type": "class",
-			"title": "My First CHI Paper?",
-			"leaders": ["TBD"],
+			"title": "My First CHI Paper",
+			"leaders": ["Aparajita Marathe", "Emani Hicks", "Seungmin Jeong", "Syed Fatiul Huq", "Ziqi Yang"],
 			"venues": [
 			],
 			"readings": [
