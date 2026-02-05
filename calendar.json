@@ -332,12 +332,13 @@
 					"link": "https://homes.cs.washington.edu/~jfogarty/publications/workshop-chi2017-codeandcontribution.pdf",
 					"optional": true
 				}
-			]
+			],
+			"slides": "slides/c9and10-uist.pdf"
 		},
 		{
 			"date": "2026-02-05",
 			"type": "class",
-			"title": "Discussion of UIST",
+			"title": "Discussion of UIST (Cancelled)",
 			"leaders": ["Moulayna Johnson Sidi Baba"],
 			"readings": [
 				{
@@ -354,7 +355,8 @@
 					"date": "2024",
 					"link": "https://dl.acm.org/doi/10.1145/3654777.3676466"
 				}
-			]
+			],
+			"slides": "slides/c9and10-uist.pdf"
 		},
 		{
 			"date": "2026-02-10",
