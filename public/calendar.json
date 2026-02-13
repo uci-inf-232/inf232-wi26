@@ -520,8 +520,80 @@
 			"leaders": ["Daniel"],
 			"notes": "Read all of the call for papers, and pick one subcommittee to read the framing readings for.",
 			"venues": [
+				{
+					"name": "IUI",
+					"link": "https://iui.acm.org/2026/call-for-papers/"
+				},
+				{
+					"name": "COMPASS",
+					"link": "https://compass.acm.org/call-for-papers/"
+				},
+				{
+					"name": "IEEE VIS",
+					"link": "https://ieeevis.org/year/2026/info/call-participation/area-model/"
+				},
+				{
+					"name": "CHI Play",
+					"link": "https://chiplay.acm.org/2026/full-papers/"
+				}
 			],
 			"readings": [
+				{
+					"title": "Guidelines for Human-AI Interaction",
+					"authors": ["Saleema Amershi", "Dan Weld", "Mihaela Vorvoreanu", "Adam Fourney", "Besmira Nushi", "Penny Collisson", "Jina Suh", "Shamsi Iqbal", "Paul N. Bennett", "Kori Inkpen", "Jaime Teevan", "Ruth Kinkin-Gil", "Eric Horvitz"],
+					"venue": "CHI",
+					"date": "2019",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3290605.3300233"
+				},
+				{
+					"title": "Principles of Mixed-Initiative User Interfaces",
+					"authors": ["Eric Horvitz"],
+					"venue": "CHI",
+					"date": "1999",
+					"link": "https://dl.acm.org/doi/abs/10.1145/302979.303030"
+				},
+				{
+					"title": "The Case for Technology in Developing Regions",
+					"authors": ["Eric Brewer", "Michael Dremmer", "Bowei Du", "Melissa Ho", "Matthew Kam", "Sergiu Nedevschi", "Joyojeet Pal", "Rabin Patra", "Sonesh Surana", "Kevin Fall"],
+					"venue": "IEEE Computer",
+					"date": "2005",
+					"link": "https://ieeexplore.ieee.org/abstract/document/1439449"
+				},
+				{
+					"title": "The Ins and Outs of HCI for Development",
+					"authors": ["Nicola Dell", "Neha Kumar"],
+					"venue": "CHI",
+					"date": "2016",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2858036.2858081?casa_token"
+				},
+				{
+					"title": "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations",
+					"authors": ["Ben Schneiderman"],
+					"venue": "IEEE Symposium on Visual Languages",
+					"date": "1996",
+					"link": "https://ieeexplore.ieee.org/document/545307"
+				},
+				{
+					"title": "A Tour Through the Visualization Zoo",
+					"authors": ["Jeffrey Heer", "Michael Bostock", "Vadim Ogievetsky"],
+					"venue": "Communications of the ACM",
+					"date": "2010",
+					"link": "https://dl.acm.org/doi/10.1145/1794514.1805128"
+				},
+				{
+					"title": "Paradigms of Games Research in HCI: A Review of 10 Years of Research at CHI",
+					"authors": ["Marcus Carter", "John Downs", "Bjorn Nansen", "Mitchell Harrop", "Martin Gibbs"],
+					"venue": "CHI Play",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2658537.2658708"
+				},
+				{
+					"title": "Streaming on Twitch: Fostering Participatory Communities of Play within Live Mixed Media",
+					"authors": ["William A. Hamilton", "Oliver Garretson", "Andruid Kerne"],
+					"venue": "CHI",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2556288.2557048"
+				}
 			]
 		},
 		{
@@ -534,10 +606,38 @@
 			"date": "2026-02-26",
 			"type": "class",
 			"title": "My First CHI Paper",
-			"leaders": ["Aparajita Marathe", "Emani Hicks", "Seungmin Jeong", "Syed Fatiul Huq", "Ziqi Yang"],
-			"venues": [
-			],
+			"leaders": ["Emani Hicks","Syed Fatiul Huq", "Seungmin Jeong", "Aparajita Marathe", "Ziqi Yang"],
 			"readings": [
+				{
+					"authors": ["Emani Hicks", "Luc Rieffel", "Ariya Gowda", "Aehong Min", "Gillian R. Hayes"],
+					"title": "Collaboration and Assistive Technology: Facilitating Joint Awareness for Noise Sensitivity",
+					"venue": "CHI",
+					"date": "2026"
+				},
+				{
+					"authors": ["Syed Fatiul Huq", "Ziyao He", "Yirui He", "Sam Malek"],
+					"title": "Bridging the Gap between Automated Intervention and Actual User Experience: A Mixed-Methods Study on Mobile Accessibility Issues for Screen Reader Users",
+					"venue": "CHI",
+					"date": "2026"
+				},
+				{
+					"authors": ["Seungmin Jeong", "Jamie Lee", "Myeong Lee", "Yunan Chen"],
+					"title": "Care Workers’ Risk Work: How Nannies Manage Invisible Threats in Employers’ Homes",
+					"venue": "CHI",
+					"date": "2026"
+				},
+				{
+					"authors": ["Aparajita S. Marathe", "Quan Zhou", "Achi Mishra", "Anne Marie Piper"],
+					"title": "Rhetoric vs Responsibility: How Tech Companies Shape AI for Accessibility",
+					"venue": "CHI",
+					"date": "2026"
+				},
+				{
+					"authors": ["Ziqi Yang", "Daniel A. Epstein", "Yunan Chen"],
+					"title": "Sharing Women’s Health Experiences Influenced by Genetic Factors: Practices, Challenges, and Opportunities",
+					"venue": "CHI",
+					"date": "2026"
+				}
 			]
 		},
 		{
