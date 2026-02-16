@@ -606,6 +606,7 @@
 			"date": "2026-02-26",
 			"type": "class",
 			"title": "My First CHI Paper",
+			"notes": "Pick two papers to read.",
 			"leaders": ["Emani Hicks","Syed Fatiul Huq", "Seungmin Jeong", "Aparajita Marathe", "Ziqi Yang"],
 			"readings": [
 				{
@@ -703,6 +704,20 @@
 			"title": "Discussion of Accessibility & Aging",
 			"leaders": ["Yiqi Xiao", "Stacy Branham (Guest Host)"],
 			"readings": [
+				{
+					"authors": ["Dasom Choi", "SoHyun Park", "Kyungah Lee", "Hwajung Hong", "Young-Ho Kim"],
+					"title": "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713792"
+				},
+				{
+					"authors": ["Peya Mowar", "Yi-Hao Peng", "Jason Wu", "Aaron Steinfeld", "Jeffrey P. Bigham"],
+					"title": "CodeA11y: Making AI Coding Assistants Useful for Accessible Web Development",
+					"venue": "CHI",
+					"date": "2025",
+					"link": "https://dl.acm.org/doi/10.1145/3706598.3713335"
+				}
 			]
 		},
 		{
