@@ -482,7 +482,8 @@
 					"link": "https://dl.acm.org/doi/10.1145/174809.174813",
 					"optional": true
 				}
-			]
+			],
+			"slides": "slides/c13and14-learning_education.pdf"
 		},
 		{
 			"date": "2026-02-19",
@@ -504,7 +505,8 @@
 					"date": "2025",
 					"link": "https://dl.acm.org/doi/10.1145/3713043.3728852"
 				}
-			]
+			],
+			"slides": "slides/c13and14-learning_education.pdf"
 		},
 		{
 			"date": "2026-02-23",
@@ -736,17 +738,56 @@
 		{
 			"date": "2026-03-10",
 			"type": "class",
-			"title": "TBD",
+			"title": "Critical HCI",
 			"leaders": ["Paul Dourish"],
 			"readings": [
+				{
+					"authors": ["Paul Dourish"],
+					"title": "What We Talk About when We Talk About Context",
+					"venue": "PUC",
+					"date": "2004",
+					"link": "https://link.springer.com/article/10.1007/s00779-003-0253-8"
+				},
+				{
+					"authors": ["Paul Dourish"],
+					"title": "Responsibilities and Implications: Further Thoughts on Ethnography and Design",
+					"venue": "DUX",
+					"date": "2007",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1389908.1389941"
+				}
 			]
 		},
 		{
 			"date": "2026-03-12",
 			"type": "class",
-			"title": "TBD",
+			"title": "CSCW versus CHI",
 			"leaders": ["Madhu Reddy"],
 			"readings": [
+				{
+					"title": "Why CSCW Applications Fail: Problems in the Design and Evaluation of Organizational Interfaces",
+					"authors": ["Jonathan Grudin"],
+					"venue": "CSCW",
+					"date": "1988",
+					"link": "https://dl.acm.org/doi/10.1145/62266.62273"
+				},
+				{
+					"title": "Distance Matters",
+					"authors": ["Gary M. Olson", "Judith S. Olson"],
+					"venue": "Human-Computer Interaction",
+					"volume": 15,
+					"issue": "2-3",
+					"date": "2000",
+					"link": "https://www.tandfonline.com/doi/abs/10.1207/S15327051HCI1523_4"
+				},
+				{
+					"title": "The Intellectual Challenge of CSCW: The Gap Between SocialRequirements and Technical Feasibility",
+					"authors": ["Mark Ackerman"],
+					"venue": "Human-Computer Interaction",
+					"volume": 15,
+					"issue": "2-3",
+					"date": "2000",
+					"link": "https://www.tandfonline.com/doi/epdf/10.1207/S15327051HCI1523_5"
+				}
 			]
 		},
 		{
