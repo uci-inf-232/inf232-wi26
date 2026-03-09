@@ -700,7 +700,7 @@
 					"optional": true
 				}
 			],
-			"slides": "slides/c17-accessibility_overview.pdf"
+			"slides": "slides/c17and18-accessibility.pdf"
 		},
 		{
 			"date": "2026-03-05",
@@ -722,7 +722,8 @@
 					"date": "2025",
 					"link": "https://dl.acm.org/doi/10.1145/3706598.3713335"
 				}
-			]
+			],
+			"slides": "slides/c17and18-accessibility.pdf"
 		},
 		{
 			"date": "2026-03-05",
@@ -730,12 +731,6 @@
 			"title": "Proposal 2 Draft",
 			"anchor": "proposal2draft",
 			"link": "https://canvas.eee.uci.edu/courses/79168/assignments/1786122"
-		},
-		{
-			"date": "2026-03-10",
-			"type": "assignments",
-			"title": "Peer Feedback on Proposal 2",
-			"anchor": "proposal2feedback"
 		},
 		{
 			"date": "2026-03-10",
@@ -758,6 +753,12 @@
 					"link": "https://dl.acm.org/doi/abs/10.1145/1389908.1389941"
 				}
 			]
+		},
+		{
+			"date": "2026-03-12",
+			"type": "assignments",
+			"title": "Peer Feedback on Proposal 2",
+			"anchor": "proposal2feedback"
 		},
 		{
 			"date": "2026-03-12",
@@ -793,7 +794,7 @@
 			]
 		},
 		{
-			"date": "2026-03-17",
+			"date": "2026-03-19",
 			"type": "assignments",
 			"title": "Proposal 2 Final Submission",
 			"anchor": "proposal2final",
